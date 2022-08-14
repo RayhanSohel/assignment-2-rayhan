@@ -1,0 +1,268 @@
+/* GOOGLE FONT LINK */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #202020;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #00ffff;
+    padding: 8px 30px;
+    box-shadow: 2px 2px 3px #999999;
+    font-size: 18px;
+}
+
+a:hover{
+    background-color: #ff3751;
+    color:black;
+    font-weight: bold;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+p {
+    line-height: 30px;
+}
+
+/* SECTION ONE START */
+.sec1 {
+    background-image: linear-gradient(#00000030, #00000020), url(../images/slider1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec1Box {
+    text-align: center;
+}
+
+.sec1Box h1 {
+    color: #00ffff;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.sec1Box h3 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.pryBtn {
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 3px #222222;
+}
+
+.sndBtn {
+    background-color: #00000080;
+    border-radius: 25px;
+    box-shadow: 2px 2px 3px #222222;
+}
+/* SECTION ONE END */
+
+.sec2 {
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.sec2 h2 {
+    color: #00ffff;
+    margin-bottom: 20px;
+}
+/* SECTION TWO END */
+
+.sec3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 120px;
+    justify-content: space-between;
+}
+
+.sec3left {
+    min-width: 280px;
+    flex-basis: 48%;
+    margin-top: 100px;
+}
+
+.sec3 h1 {
+    font-size: 35px;
+}
+
+.sec3Para {
+    margin: 30px 0px;
+}
+
+.sec3 p {
+    font-size: 14px;
+}
+
+.sec3 i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #00ffff;
+}
+
+.sec3Btn {
+    border-radius: 25px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.sec3Right {
+    flex-basis: 48%;
+}
+
+.sec3Right img {
+    width: 100%;
+    min-width: 280px;
+    padding: 10px;
+}
+/* SECTION THREE END */
+
+.sec4 {
+    padding: 50px 100px;
+}
+
+.sec4 h1 {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+.sec4Row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sec4Col {
+    min-width: 280px;
+    margin: 5px;
+    flex-basis: 31%;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #dddddd;
+    background-color: #00ffff10;
+}
+
+.sec4Col p {
+    margin: 10px 0px;
+}
+
+.sec4Row2 {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* SECTION FOUR END */
+
+.sec5 {
+    background-image: linear-gradient(#00000030, #00000020), url(../images/bg-section-traveler.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5Box {
+    text-align: center;
+}
+
+.sec5Box h2 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.sec5Box a{
+    box-shadow: 2px 2px 3px #222222;
+}
+/* SECTION FIVE END */
+
+.sec6 {
+    padding: 80px 150px;
+}
+
+.sec6 h1 {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+.sec6Row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sec6Col {
+    flex-basis: 30%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.sec6Col img {
+    width: 100%;
+    min-width: 200px;
+    border: 5px solid #00ffff;
+    box-shadow: 2px 2px 3px #999999;
+    padding: 5px;
+}
+
+.sec6Col h2 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.sec6Btn {
+    margin: 10px 0px;
+    color: #111111;
+    font-weight: bold;
+    border: 3px solid #00ffff;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 25px;
+}
+/* SECTION SIX END */
+
+.sec7 {
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.sec7 h1{
+    font-size: 35px;
+}
+
+.sec7 p {
+    font-size: 14px;
+    margin: 30px 0px;
+}
+/* SECTION SEVEN END */
+
+footer {
+    Height: 70px;
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0px;
+}
+/* THE END */
